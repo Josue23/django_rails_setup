@@ -11,7 +11,7 @@ sudo apt-get install -y build-essential autoconf bison libssl-dev libyaml-dev li
 
 # Heroku toobelt, for deploy in heroku...
 wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
-# After run the command above, git and ruby also will be
+# After running the above command, git and ruby will also be installed
 
 # rbenv: A Ruby version manager
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
@@ -42,7 +42,7 @@ export WORKON_HOME=~/.virtualenvs
 mkdir -p $mkdir -p $WORKON_HOME
 source /usr/local/bin/virtualenvwrapper.sh
 
-## If you want/need python3.5, ucomment following lines...
+## If you want/need python3.5, uncomment following lines...
 # touch /etc/apt/sources.list.d/deadsnakes.list
 # echo "deb http://ppa.launchpad.net/fkrull/deadsnakes/ubuntu trusty main" >> /etc/apt/sources.list.d/deadsnakes.list
 # echo "deb-src http://ppa.launchpad.net/fkrull/deadsnakes/ubuntu trusty main" >> /etc/apt/sources.list.d/deadsnakes.list
